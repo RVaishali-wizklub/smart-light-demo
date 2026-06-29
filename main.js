@@ -37,11 +37,11 @@ $(document).ready(function(){
     "method": "POST",
     "dataType": "json",
     "contentType": "application/json; charset=utf-8",
-    "headers": {"Api-Access-Key": "MUNSQkVwNUI3b2NDQ1ZwcEtLVUk=", "Api-Secret-Key":
-    "VjRzN3NWSWdrbFBPckV3S1NkVnJDTzg2NjViSGxKRzBRdw==", "Content-Type":
+    "headers": {"Api-Access-Key": "TFJxVDhKWE9IRm5TZkwxSThBTzI=", "Api-Secret-Key":
+    "Q0ZoYzItcXVuYlBVaEJhTFNZSEFfZmhnUmdUNDFKZkw5QQ==", "Content-Type":
     "application/json"},
     
-    "data": JSON.stringify({"mode": "WRITE", "device_id": "vaishalianjayya_IoT_device", "source": "API",
+    "data": JSON.stringify({"mode": "WRITE", "device_id": "sc15801", "source": "API",
     "api": "smartlight", "type": "strip_switch", "color": color, "power": power}),
     };
     console.log(power, color);
